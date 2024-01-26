@@ -1,3 +1,4 @@
+// add to functions PHP
 if ( class_exists( 'GFForms' ) ) {
 	/**
 	 * gravity_product_table
