@@ -1,3 +1,4 @@
+//add this to a Gravity Form HTML field
 $(document).ready(function () {
   jQuery("#gform_submit_button_274").hide();
   jQuery(".tx_decrement").on("click", function () {
