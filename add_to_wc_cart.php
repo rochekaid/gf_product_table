@@ -1,3 +1,4 @@
+//add to child themes function PHP
 add_action( 'gform_after_submission_274', 'add_product_to_cart_form', 10, 2 );
 function add_product_to_cart_form( $entry, $form ) {
     $summary = explode(",",rgar( $entry, '3' )); 
